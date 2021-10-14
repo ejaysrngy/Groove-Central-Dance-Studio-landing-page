@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*hr {*/
+/*    border-style: none;*/
+/*    border-top-style: dotted;*/
+/*    border-width: 10px;*/
+/*    width: 50px;*/
+/*    margin: 20px auto 0 auto;*/
+/*    border-color: #1E3163;*/
+/*}*/
+
+.hidden {
+    display: none;
+}
+
+.navbar-container img {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar {
+    background-color: #1E3163;
+    padding: 0 40px 0 40px;
+}
+
+.navbar img {
+    margin: 10px;
+}
+
+.navbar-toggler {
+    background-color: #F037A5 !important;
+}
+
+.navbar-toggler-icon {
+    color: rgba(255,255,255,.55);
+    border-color: rgba(255,255,255,.1);
+}
+
+.navbar-nav a {
+    font-family: 'Montserrat SemiBold', sans-serif;
+    color: floralwhite !important;
+}
+
+.collapse button {
+    color: floralwhite;
+    margin-bottom: 10px;
+    background-color: #FE18A3 !important;
+    /*padding: 0 10px !important;*/
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.collapse button:hover {
+    background-color: #ac0067 !important;
+}
+
+.btn-sm {
+    padding: 0 20px;
+    font-family: "Montserrat", sans-serif !important;
+}
+/* NAVBARRR */
+
+.coaches-header-container {
+    font-family: "Rubik Mono One", sans-serif;
+    margin: 0 auto;
+    padding: 20px 0 5px 0;
+    text-align: center;
+}
+
+.coaches-filter-container {
+    font-family: "Montserrat SemiBold", sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    text-align: right;
+}
+
+.dropdown-menu a {
+    font-family: "Montserrat", sans-serif;
+}
+
+.coaches-gallery-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    justify-content: center;
+}
+
+.coaches-gallery-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.coach-gallery h5 {
+    margin-bottom: 0;
+}
+
+/*FOOTER*/
+.footer-container-fluid {
+    color: floralwhite;
+    overflow: hidden;
+    background-color: #1E3163;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.footer-container-fluid h2 {
+    font-family: "Montserrat SemiBold", sans-serif;
+}
+
+.footer-container-fluid .fa {
+    padding: 5px;
+    vertical-align: center;
+}
+
+.footer-container-fluid .col-md {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-container-fluid a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-container-fluid hr {
+    margin: 20px auto;
+    width: 100%
+}
+
+.footer-container-fluid .col-md {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.footer-container-fluid p {
+    display: inline-block;
+}

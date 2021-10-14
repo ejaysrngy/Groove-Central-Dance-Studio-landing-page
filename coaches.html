@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Coaches </title>
+
+    <link rel="icon" href="media/favicon(1).ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="styles/classes.css">
+</head>
+<body>
+    <div class="navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a href="index.html" class="navbar-brand">
+                <img class="logo d-inline-block align-top"
+                     src="./media/groove_central.png"
+                     alt="logo">
+                <span class="hidden"> GC </span>
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navlinks"
+                aria-controls="navlinks"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navlinks">
+                <ul class="navbar-nav ms-auto">
+                    <li>
+                        <a class="nav-link" href="coaches.html"> Classes </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="coaches.html"> Coaches </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="recitals.html"> Recitals </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" id="merch" href="#"> Merch </a>
+                    </li>
+                    <li>
+                        <button type="button" class="button btn-sm rounded-pill border-0 bg-primary">
+                            <a class="nav-link" href="#">Login </a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="coaches-header-container col-lg-12 mx-auto">
+        <h1> COACHES </h1>
+    </div>
+    <div class="coaches-filter-container">
+        <button class="btn dropdown-toggle"
+                type="button"
+                id="dropdown"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+            Sort by
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdown">
+            <a href="javascript:descending()" class="dropdown-item" data-filter="nameDesc"> Name: A - Z </a>
+            <a href="javascript:ascending()" class="dropdown-item" data-filter="nameAsc"> Name: Z - A </a>
+            <a href="javascript:difficulty()" class="dropdown-item" data-filter="diff"> Difficulty </a>
+        </div>
+    </div>
+
+    <div class="coaches-gallery-container">
+        <div class="row" id="row1">
+            <div class="coach-gallery col-md filter center 3" id="Adam" difficulty="3">
+                <img src="media/coaches/coaches(11).jpg" alt="adam">
+                <h5> Adam Alonzo </h5>
+                <p> Advanced </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Jigoro" difficulty="3">
+                <img src="media/coaches/coaches(9).jpg" alt="jigs">
+                <h5> Jigoro Gragasin </h5>
+                <p> Advanced </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Tank" difficulty="3">
+                <img src="media/coaches/coaches(2).jpg" alt="tank">
+                <h5> Tank Bautista </h5>
+                <p> Advanced </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Aennon" difficulty="3">
+                <img src="media/coaches/coaches(10).jpg" alt="ae">
+                <h5> Aennon Tabungar </h5>
+                <p> Advanced </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Joaquin" difficulty="3">
+                <img src="media/coaches/coaches(1).jpg" alt="wax">
+                <h5> Joaquin Santos </h5>
+                <p> Advanced </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Dani" difficulty="3">
+                <img src="media/coaches/coaches(6).jpg" alt="dani">
+                <h5> Dani Cornejo </h5>
+                <p> Advanced </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Carlos" difficulty="3">
+                <img src="media/coaches/coaches(8).jpg" alt="carlos">
+                <h5> Carlos Serrano </h5>
+                <p> Advanced </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Sam" difficulty="3">
+                <img src="media/coaches/coaches(4).jpg" alt="carlos">
+                <h5> Sammy Javier </h5>
+                <p> Advanced </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Kyla" difficulty="2">
+                <img src="media/coaches/coaches(3).jpg" alt="carlos">
+                <h5> Kyla Warikai </h5>
+                <p> Intermediate </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Libby" difficulty="2">
+                <img src="media/coaches/coaches(5).jpg" alt="carlos">
+                <h5> Libby Zorilla </h5>
+                <p> Intermediate </p>
+            </div>
+            <div class="coach-gallery col-md filter center 3" id="Joseph" difficulty="3">
+                <img src="media/coaches/coaches(7).jpg" alt="carlos">
+                <h5> Joseph Tumbali </h5>
+                <p> Advanced </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h2> Groove Central <br> Dance Studio </h2>
+            </div>
+            <div class="col-md-auto ms-auto">
+                <a href="https://www.instagram.com/groovecentral/" target="_blank">
+                    <i class="fa fa-instagram" style="font-size:24px"></i>
+                </a>
+                <a href="https://www.facebook.com/GrooveCentralDanceStudio/" target="_blank">
+                    <i class="fa fa-facebook" style="font-size:24px"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <hr>
+            </div>
+        </div>
+        <div class="row" id="info">
+            <div class="col-md">
+                <i class="material-icons"> pin_drop </i>
+                <p> 104 13th Ave, Cubao, Quezon City, Metro Manila </p>
+            </div>
+            <div class="col-md">
+                <i class="fa fa-phone" style="font-size:24px"></i>
+                <p> +639111111111 </p>
+            </div>
+            <div class="col-md">
+                <i class="fa fa-envelope" style="font-size:24px"></i>
+                <p> groovecentral@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/coaches.js"></script>
+</body>
+</html>
