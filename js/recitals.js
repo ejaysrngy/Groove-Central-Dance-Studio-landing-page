@@ -3,7 +3,7 @@ $(".btn1").on("click", function(){
    $("#row1-img").slideToggle();
 });
 
-$("row2-img").hide();
+
 $("#row2-img").hide();
 $(".btn2").on("click", function(){
    $("#row2-img").slideToggle();
