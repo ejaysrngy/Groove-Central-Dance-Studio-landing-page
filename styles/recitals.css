@@ -96,7 +96,7 @@
 }
 
 #row1 .row1-img-container {
-    display: none;
+    display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
     margin: 0 auto;
@@ -141,7 +141,7 @@
 }
 
 #row2 .row2-img-container {
-    display: none;
+    display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
     margin: 0 auto;
