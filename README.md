@@ -5,4 +5,4 @@ The web page is about a dance studio, namely, Groove Central Dance Studio, which
 
 The web page is solely front-end (HTML, CSS, Bootstrap, Javascript, jQuery) since that was the main focus of the 5-week bootcamp from TCS.
 It showcases choreographers and some recitals of some dance teams in the Philippines.
-There aren't that much clickable links, but as I go along with learning Web Dev, I may add more features and hopefully a backend feature.
+There aren't that much clickable links, but as I go along with learning Web Dev, I may add more features and hopefully some backend features.
