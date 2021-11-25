@@ -1,4 +1,4 @@
-# The Coding School - Final Project
+# Groove Central Dance Studio - landing page
 
 The following project is our "capstone" project for The Coding School.
 The web page is about a dance studio, namely, Groove Central Dance Studio, which is a local dance studio here in Manila.
